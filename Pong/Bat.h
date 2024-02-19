@@ -5,10 +5,10 @@ class Bat
 {
 protected:
 
-
-
 public:
-	float speed = 100.f;
+	Bat();
+
+	float speed = 500.f;
 	sf::RectangleShape shape;
 
 	void Init();
